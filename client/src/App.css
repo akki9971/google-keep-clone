@@ -1,0 +1,30 @@
+:root {
+    --orange-color: orange;
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #feefc3;
+    --darken-primary-color: #fae4a1;
+    --red-color: red;
+    --blue-color: blue;
+}
+
+.btn-orange {
+    background: var(--orange-color);
+    color: var(--white-color);
+    opacity: 0.8;
+}
+
+.btn-orange:hover {
+    opacity: 1;
+}
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
